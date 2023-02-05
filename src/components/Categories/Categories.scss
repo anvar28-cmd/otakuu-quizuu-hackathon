@@ -1,0 +1,31 @@
+.otaku {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  text-shadow: 0 0 15px rgb(245, 1, 1);
+  padding-top: 2rem;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    list-style-type: none;
+  }
+
+  &__button {
+    font-size: 1.2rem;
+    width: 13rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    margin: 3rem 2rem;
+    margin-bottom: 8rem;
+    border-radius: 8px;
+    text-shadow: 0 0 6px green;
+    cursor: pointer;
+  }
+}

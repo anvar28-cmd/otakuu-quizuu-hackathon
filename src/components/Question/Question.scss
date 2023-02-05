@@ -1,0 +1,41 @@
+.question {
+  &__question {
+    display: flex;
+    justify-content: center;
+
+    text-shadow: 0 0 5px white;
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+  &__label {
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: rgba(249, 68, 68, 0.814);
+    // text-shadow: 0 0 2px red;
+    border: 2px solid rgba(160, 13, 13, 0.814);
+    font-weight: 800;
+  }
+
+  &__answers {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+  &__next {
+    margin-left: 40rem;
+    width: 15rem;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+
+    margin-bottom: 5rem;
+    border-radius: 8px;
+    text-shadow: 0 0 6px green;
+  }
+}

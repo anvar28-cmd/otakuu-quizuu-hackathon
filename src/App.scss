@@ -1,0 +1,25 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background__video {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.questionNumber {
+  text-align: left;
+  margin-left: 40rem;
+  font-size: 2rem;
+  text-shadow: 0 0 5px white;
+  font-weight: 600;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
